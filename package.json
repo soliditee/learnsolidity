@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "ethers": "^5.6.9",
+    "solc": "0.8.7-fixed"
+  },
+  "scripts": {
+    "compile": "yarn solcjs --bin --abi --include-path node_modules/ --base-path ./lesson05-etherjs-simple-storage/ -o ./lesson05-etherjs-simple-storage/ ./lesson05-etherjs-simple-storage/SimpleStorage.sol"
+  }
+}
